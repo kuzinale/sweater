@@ -1,4 +1,4 @@
-package com.example.sweater;
+package com.example.sweater.controller;
 
 
 import com.example.sweater.domain.Message;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Map;
 
 @Controller
-public class GreatingController {
+public class MainController {
     @Autowired
     private MessageRepo messageRepo;
 
