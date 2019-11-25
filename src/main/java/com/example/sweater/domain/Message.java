@@ -13,6 +13,15 @@ public class Message {
 
     private String text;
     private String tag;
+    private User athor;
+
+    public User getAthor() {
+        return athor;
+    }
+
+    public void setAthor(User athor) {
+        this.athor = athor;
+    }
 
     public Message() {
     }
